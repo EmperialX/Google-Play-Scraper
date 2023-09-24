@@ -22,13 +22,14 @@ project-root/
 │
 ├── json_data/ # Store scraped JSON data here
 │
-├── scraper_library.py # Python script for scraping and saving data
+├── playstore_scraper.py # Python script for scraping and saving data
 │
-├── extra.py # Python script for continuous scraping
+├── requirements.txt # Dependencies to install
 │
-├── app.py # Flask web application for serving the API
+├── playstore_scraper_api.py # Flask web application for serving the API
 │
 ├── README.md # You're reading it!
+
 ```
 
 ## Installation
@@ -63,7 +64,7 @@ To start the scraper, run the following command:
 
 ```
 
-python scraper_library.py
+python playstore_scraper.py
 ```
 
 
@@ -77,13 +78,14 @@ Starting the API
 
 > Ensure that your MongoDB instance is up and running.
 
->Open a new terminal window and navigate to the project directory.
+> Open a new terminal window and navigate to the project directory.
 
 
 Start the Flask API using this command:
 
 ```
-python app.py
+python playstore_scraper_api.py
+
 ```
 
 
