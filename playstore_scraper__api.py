@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from pymongo import MongoClient
 app = Flask(__name__)
 mongo_uri = 'mongodb://localhost:27017/'
-mongo_db = 'game_data111'
+mongo_db = 'game_data'
 mongo_collection = 'games'
 def get_all_apps_from_mongodb():
     client = MongoClient(mongo_uri)
