@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, jsonify, request
 from pymongo import MongoClient
 app = Flask(__name__)
